@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/bitmap" />
+
+        <EditText
+            android:id="@+id/et_user_name"
+            android:layout_width="312dp"
+            android:layout_height="56dp"
+            android:background="@drawable/rounded_grey_border"
+            android:layout_marginTop="44dp"
+            android:hint="Username"
+            android:textColorHint="#e7e5e5"
+            android:inputType="text"
+            android:textColor="#000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="312dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/rounded_grey_border"
+            android:hint="Password"
+            android:textColorHint="#e7e5e5"
+            android:inputType="textPassword"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="312dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/rounded_blue_border"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:letterSpacing="0.02"/>
+
+        <TextView
+            android:id="@+id/et_forgot_password"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text="Forgot Password"
+            android:textColor="#b1c4f8"
+            android:textSize="13sp"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
